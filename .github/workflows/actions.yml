@@ -23,7 +23,7 @@ jobs:
         with:
           _input-file: './templates/index.html'
           _output-file: './index.html'
-          World: GitHub
+          World: USER
       - name: Commit files
         id: commit
         run: |
